@@ -35,16 +35,9 @@
 
 ### 2. 安装脚本
 
-**方式一：直接复制代码（推荐）**
-
-1. 打开 [`yuketang-and-CQU-Course-Helper.js`](yuketang-and-CQU-Course-Helper.js) 文件
-2. 复制全部代码
-3. 点击浏览器工具栏中的 Tampermonkey 图标 → **添加新脚本**
-4. 粘贴代码，按 `Ctrl+S` 保存
-
-**方式二：手动创建**
-
-打开 Tampermonkey 管理面板 → 添加新脚本 → 将 `yuketang-and-CQU-Course-Helper.js` 中的代码完整复制进去 → 保存。
+1. 打开 [`yuketang-and-CQU-Course-Helper.js`](yuketang-and-CQU-Course-Helper.js)，复制全部代码
+2. 点击浏览器工具栏中的 Tampermonkey 图标 → **添加新脚本**
+3. 粘贴代码，按 `Ctrl+S` 保存
 
 ## 使用说明
 
