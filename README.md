@@ -1,18 +1,18 @@
-# cqu-Course-Helper
+# yuketang-and-CQU-Course-Helper
 
-重庆大学课程平台 · 视频强制后台持续播放 · Tampermonkey 用户脚本
+雨课堂 & 重庆大学课程平台 · 视频强制后台持续播放 · Tampermonkey 用户脚本
 
 > 基于 [NJU_Auto-Course-Helper](https://github.com/xiaoch669/NJU_Auto-Course-Helper) 修改适配，感谢原作者的思路。
 
 ## 功能特点
 
-本脚本专为重庆大学在线课程平台设计，解决视频学习中的后台暂停问题，实现无人值守的自动播放体验。
+本脚本同时适配 **重庆大学在线课程平台**（`courses.cqu.edu.cn`）和 **雨课堂**（`yuketang.cn` / `xuetangx.com`），解决视频学习中的后台暂停问题，实现无人值守的自动播放体验。
 
 - **强制后台播放** — 切换到其他标签页、窗口被遮挡或浏览器最小化时，视频仍然持续播放，不会暂停
 - **自动播放** — 页面加载后自动检测并播放视频，无需手动点击
 - **暂停行为拦截** — 阻止平台脚本通过 `pause()`、`visibilitychange` 等机制暂停视频
 - **动态内容支持** — 通过 `MutationObserver` 监听 DOM 变化，自动处理异步加载的视频元素（兼容 SPA 架构的课程平台）
-- **专注适配** — 专为重庆大学课程平台（`courses.cqu.edu.cn`）优化
+- **双平台适配** — 同时支持重庆大学课程平台（`courses.cqu.edu.cn`）和雨课堂（`yuketang.cn` / `xuetangx.com`）
 
 ## 安装方法
 
@@ -31,14 +31,14 @@
 
 **方式一：直接复制代码（推荐）**
 
-1. 打开 [`cqu-Course-Helper.js`](cqu-Course-Helper.js) 文件
+1. 打开 [`yuketang-and-CQU-Course-Helper.js`](yuketang-and-CQU-Course-Helper.js) 文件
 2. 复制全部代码
 3. 点击浏览器工具栏中的 Tampermonkey 图标 → **添加新脚本**
 4. 粘贴代码，按 `Ctrl+S` 保存
 
 **方式二：手动创建**
 
-打开 Tampermonkey 管理面板 → 添加新脚本 → 将 `cqu-Course-Helper.js` 中的代码完整复制进去 → 保存。
+打开 Tampermonkey 管理面板 → 添加新脚本 → 将 `yuketang-and-CQU-Course-Helper.js` 中的代码完整复制进去 → 保存。
 
 ## 使用说明
 
