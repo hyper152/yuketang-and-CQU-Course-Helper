@@ -5,7 +5,6 @@
 // @description  即使浏览器被其他应用盖住、最小化，也强制视频持续播放，不停止、不暂停
 // @author       hyper152
 // @match        https://courses.cqu.edu.cn/*
-// @match        https://www.xuetangx.com/learn/*/video/*
 // @match        https://*.yuketang.cn/*
 // @grant        GM_addStyle
 // @run-at       document-idle
